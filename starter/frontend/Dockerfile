@@ -11,9 +11,6 @@ COPY package*.json ./
 # Install packages
 RUN npm ci
 
-# Update browserslist database RUN npx update-browserslist-db@latest
-RUN npx update-browserslist-db@latest
-
 # Copy code
 COPY . .
 

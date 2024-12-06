@@ -104,6 +104,9 @@ jobs:
         run: |
           npm ci
           npm install prettier --save-dev
+          
+      - name: Build the app 
+        run: npm run build
 
       - name: Docker Build
         run: |

@@ -1,3 +1,6 @@
+APP FE: http://a98befa15b1a64f0488d5abecc43d62c-568549391.us-east-1.elb.amazonaws.com/
+APP BE: http://a20aa9673c5b14170b8442ec2fa734b4-450402820.us-east-1.elb.amazonaws.com/movies
+
 # Movie Picture Pipeline
 
 You've been brought on as the DevOps resource for a development team that manages a web application that is a catalog of Movie Picture movies. They're in dire need of automating their development workflows in hopes of accelerating their release cycle. They'd like to use Github Actions to automate testing, building and deploying their applications to an existing Kubernetes cluster.

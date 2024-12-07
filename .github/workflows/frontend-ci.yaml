@@ -103,7 +103,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-          npm install prettier --save-dev
+          npm install prettier eslint eslint-config-prettier --save-dev
 
       - name: Update browserslist database 
         run: | 

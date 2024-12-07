@@ -1,12 +1,6 @@
 module.exports = {
   ignorePatterns: ['build/', 'dist/', 'node_modules/'],
-  extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:prettier/recommended',
-    'react-app',
-    'react-app/jest'
-  ],
+  extends: ['eslint:recommended', 'plugin:react/recommended'],
   plugins: ['react', 'prettier'],
   settings: {
     react: {
@@ -36,6 +30,7 @@ module.exports = {
         parser: 'babel-ts',
       },
     ],
+    // Customize your rules here
     'react/prop-types': process.env.FAIL_LINT ? 2 : 0,
     'react/jsx-uses-vars': 'warn',
   },
